@@ -162,6 +162,7 @@ a { color: inherit; }
 .proj.feature h3 { font-size: 30px; }
 .p-link { align-self: flex-start; font-family: var(--font-mono); font-weight: 600; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); text-decoration: none; border-bottom: 2px solid var(--coral); padding-bottom: 3px; transition: color .15s; }
 .p-link:hover { color: var(--coral); }
+.p-links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .browser.real img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
 .proj {
   background: var(--white); border: 1.5px solid var(--ink);
