@@ -1,0 +1,223 @@
+<!doctype html>
+<!--
+  OKAN ERGÜRBÜZ · KİŞİSEL SİTE
+  Bu dosyada sayfadaki bütün YAZILAR var.
+  Her yazının iki hali var: <span lang="tr">Türkçe</span><span lang="en">English</span>
+  Bir şeyi değiştirirken ikisini de güncelle.
+  Renkler ve tasarım: css/style.css   ·   Hareketler ve düğmeler: js/main.js
+-->
+<html lang="tr" data-lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Okan Ergürbüz</title>
+<meta name="description" content="Okan Ergürbüz – Yaşar Üniversitesi Yönetim Bilişim Sistemleri öğrencisi. Projeler, beceriler ve iletişim.">
+<meta property="og:title" content="Okan Ergürbüz">
+<meta property="og:description" content="Yönetim Bilişim Sistemleri öğrencisi · Staj arıyor. Python botları ve web siteleri geliştiriyor.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23FF5A36'/%3E%3C/svg%3E">
+<script>try{var m=localStorage.getItem('okan-mode');if(m==='dark'||m==='light')document.documentElement.setAttribute('data-mode',m)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= ÜST KISIM: isim, kısa tanıtım, öğrenci kartı ================= -->
+<div class="hero-wrap">
+  <span class="circle" aria-hidden="true"></span>
+  <span class="bar-c" aria-hidden="true"></span>
+
+  <header class="in top">
+    <a class="mark" href="#">Okan Ergürbüz</a>
+    <div class="tools">
+    <button type="button" id="mode" class="mode" aria-pressed="false" aria-label="Gece modu / Dark mode" title="Gece modu / Dark mode">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><rect x="8" y="8" width="8" height="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+    </button>
+    <div class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" id="btn-tr" data-set-lang="tr" aria-pressed="true">TR</button>
+      <button type="button" id="btn-en" data-set-lang="en" aria-pressed="false">EN</button>
+    </div>
+    </div>
+  </header>
+
+  <section class="in hero">
+    <div>
+      <div class="eyebrow"><span lang="tr">YBS öğrencisi · Staj arıyor</span><span lang="en">MIS student · Seeking internship</span></div>
+      <h1 aria-label="Okan Ergürbüz"><span class="ln"><span>Okan</span></span><span class="l2 ln"><span>Ergürbüz</span></span></h1>
+      <p class="rot"><span class="pfx">&gt;</span><span><span lang="tr">Geliştiriyorum:</span><span lang="en">I build</span></span><span class="w"><span lang="tr">Python botları</span><span lang="en">Python bots</span></span><span class="cur" aria-hidden="true"></span></p>
+      <p class="lead">
+        <span lang="tr">Yönetim Bilişim Sistemleri öğrencisiyim. İş süreçlerini anlayıp bunları çalışan yazılıma dönüştürmeyi seviyorum. Bunu bir ekibin içinde yapabileceğim bir staj arıyorum.</span>
+        <span lang="en">I study Management Information Systems. I like understanding how a business works and turning that into software that runs. I am looking for an internship where I can do this as part of a team.</span>
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#iletisim"><span lang="tr">İletişime geç</span><span lang="en">Get in touch</span> <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn" href="https://www.linkedin.com/in/okan-erg%C3%BCrb%C3%BCz-8b4850386/" target="_blank" rel="noopener">LinkedIn <span class="arr" aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <aside class="idcard" aria-label="Özet / Summary">
+      <div class="stripe"><span><span lang="tr">Öğrenci</span><span lang="en">Student</span></span><b>YBS · MIS</b></div>
+      <dl>
+        <div class="f"><dt><span lang="tr">Üniversite</span><span lang="en">University</span></dt><dd><span lang="tr">Yaşar Üniversitesi</span><span lang="en">Yaşar University</span></dd></div>
+        <div class="f"><dt><span lang="tr">Bölüm</span><span lang="en">Program</span></dt><dd><span lang="tr">Yönetim Bilişim Sistemleri</span><span lang="en">Management Information Systems</span></dd></div>
+        <div class="f"><dt><span lang="tr">Konum</span><span lang="en">Location</span></dt><dd>İzmir, Türkiye</dd></div>
+        <div class="f"><dt><span lang="tr">İngilizce</span><span lang="en">English</span></dt><dd>C1</dd></div>
+        <div class="f"><dt><span lang="tr">Durum</span><span lang="en">Status</span></dt><dd><span class="live"><span lang="tr">Staja açık</span><span lang="en">Open to internships</span></span></dd></div>
+      </dl>
+    </aside>
+  </section>
+</div>
+
+<!-- ================= KAYAN ŞERİT: iki "grp" satırı birebir aynı olmalı ================= -->
+<div class="ticker" aria-label="Python, Java, C++, JavaScript, HTML, CSS, Node.js, SQL">
+  <div class="track">
+    <div class="grp"><span>Python</span><i></i><span>Java</span><i></i><span>C++</span><i></i><span>JavaScript</span><i></i><span>HTML</span><i></i><span>CSS</span><i></i><span>Node.js</span><i></i><span>SQL</span><i></i><span lang="tr">İngilizce C1</span><span lang="en">English C1</span><i></i></div>
+    <div class="grp" aria-hidden="true"><span>Python</span><i></i><span>Java</span><i></i><span>C++</span><i></i><span>JavaScript</span><i></i><span>HTML</span><i></i><span>CSS</span><i></i><span>Node.js</span><i></i><span>SQL</span><i></i><span lang="tr">İngilizce C1</span><span lang="en">English C1</span><i></i></div>
+  </div>
+</div>
+
+<main>
+  <!-- ================= PROJELER =================
+       Yeni proje eklemek için bir <article class="proj"> ... </article> bloğunu
+       kopyalayıp altına yapıştır, başlığını ve yazısını değiştir.
+       Görsel kısmı (class="shot") silip yerine <img src="images/dosya.png" alt="..."> koyabilirsin. -->
+  <section class="sec alt" aria-labelledby="h-proj">
+    <div class="in">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow"><span lang="tr">Kendi geliştirdiklerim</span><span lang="en">Built by me</span></div>
+          <h2 id="h-proj"><span lang="tr">Projeler</span><span lang="en">Projects</span></h2>
+        </div>
+        <span class="count">02</span>
+      </div>
+      <div class="projects">
+        <article class="proj">
+          <div class="shot" aria-hidden="true">
+            <span class="deco" style="width:120px;height:120px;border-radius:50%;background:var(--blue);bottom:-60px;left:-60px;"></span>
+            <div class="term">
+              <div><span class="p">$ </span><span class="cmd">python digest.py</span><span class="caret"></span></div>
+              <div class="c"># <span lang="tr">seçili siteler taranıyor</span><span lang="en">scanning selected sites</span></div>
+              <div class="trow"><span class="t"><span lang="tr">Ekonomi</span><span lang="en">Economy</span></span><span class="bars"><i class="bar w9"></i><i class="bar w6"></i></span></div>
+              <div class="trow"><span class="t"><span lang="tr">Teknoloji</span><span lang="en">Tech</span></span><span class="bars"><i class="bar w8"></i><i class="bar w5"></i></span></div>
+              <div class="trow"><span class="t"><span lang="tr">Spor</span><span lang="en">Sports</span></span><span class="bars"><i class="bar w7"></i><i class="bar w6"></i></span></div>
+              <div class="ok"><b>✓</b> <span lang="tr">günlük özet gönderildi</span><span lang="en">daily digest sent</span></div>
+            </div>
+            <span class="ex"><span lang="tr">Temsili</span><span lang="en">Illustration</span></span>
+          </div>
+          <div class="body">
+            <h3><span lang="tr">Günlük haber özeti botu</span><span lang="en">Daily news digest bot</span></h3>
+            <p>
+              <span lang="tr">Seçilen haber sitelerini belirlenen başlıklarda tarıyor, bulduğu haberleri özetliyor ve kullanıcıya her gün kısa bir geri bildirim olarak gönderiyor.</span>
+              <span lang="en">Scans selected news sites for chosen topics, summarizes the articles it finds and sends the user a short digest every day.</span>
+            </p>
+            <ul class="tags"><li>Python</li></ul>
+          </div>
+        </article>
+
+        <article class="proj">
+          <div class="shot" aria-hidden="true">
+            <span class="deco" style="width:90px;height:14px;background:var(--coral);top:22px;right:22px;"></span>
+            <div class="browser">
+              <div class="chrome"><i></i><i></i><i></i><span class="url"></span></div>
+              <div class="site">
+                <div class="nav"><span class="logo"></span><span class="links"><i></i><i></i><i></i></span></div>
+                <div class="heroblk">
+                  <div class="bars"><i class="bar h w9"></i><i class="bar w8"></i><i class="bar w6"></i><span class="cta"></span></div>
+                  <div class="road"><span class="car"></span></div>
+                </div>
+                <div class="cards"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <span class="ex"><span lang="tr">Temsili</span><span lang="en">Illustration</span></span>
+          </div>
+          <div class="body">
+            <h3><span lang="tr">Sürücü kursu web sitesi</span><span lang="en">Driving school website</span></h3>
+            <p>
+              <span lang="tr">Bir sürücü kursu için hazırladığım web sitesi.</span>
+              <span lang="en">A website I built for a driving school.</span>
+            </p>
+            <ul class="tags"><li>Web</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BECERİLER: <li> satırı ekle veya sil ================= -->
+  <section class="sec" aria-labelledby="h-skills">
+    <div class="in">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow"><span lang="tr">Araçlar ve diller</span><span lang="en">Tools and languages</span></div>
+          <h2 id="h-skills"><span lang="tr">Beceriler</span><span lang="en">Skills</span></h2>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="sk"><span class="eyebrow"><span lang="tr">Programlama</span><span lang="en">Programming</span></span>
+          <ul><li>Python</li><li>Java</li><li>C++</li><li>JavaScript</li></ul></div>
+        <div class="sk"><span class="eyebrow">Web</span>
+          <ul><li>HTML</li><li>CSS</li><li>Node.js</li></ul></div>
+        <div class="sk"><span class="eyebrow"><span lang="tr">Veri</span><span lang="en">Data</span></span>
+          <ul><li>SQL</li></ul></div>
+        <div class="sk"><span class="eyebrow"><span lang="tr">Diller</span><span lang="en">Languages</span></span>
+          <ul><li><span lang="tr">İngilizce</span><span lang="en">English</span><small>C1</small></li><li><span lang="tr">Türkçe</span><span lang="en">Turkish</span><small><span lang="tr">ANA DİL</span><span lang="en">NATIVE</span></small></li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HAKKIMDA ve EĞİTİM ================= -->
+  <section class="sec alt" aria-labelledby="h-about">
+    <div class="in">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow"><span lang="tr">Kısaca ben</span><span lang="en">In short</span></div>
+          <h2 id="h-about"><span lang="tr">Hakkımda</span><span lang="en">About</span></h2>
+        </div>
+      </div>
+      <div class="about">
+        <p>
+          <span lang="tr">Yaşar Üniversitesi'nde Yönetim Bilişim Sistemleri okuyorum. Derslerin yanında kendi projelerimi geliştiriyorum: bir sürücü kursu için web sitesi hazırladım ve Python ile günlük haber özeti çıkaran bir bot geliştirdim. Staj yoluyla gerçek bir iş ortamında deneyim kazanmak ve öğrendiklerimi bir ekibin içinde uygulamak istiyorum.</span>
+          <span lang="en">I study Management Information Systems at Yaşar University. Alongside my courses I build my own projects: I made a website for a driving school and built a Python bot that sends a daily news digest. Through an internship I want to gain experience in a real work environment and apply what I have learned as part of a team.</span>
+        </p>
+        <div class="edu">
+          <span class="eyebrow"><span lang="tr">Eğitim</span><span lang="en">Education</span></span>
+          <h3><span lang="tr">Yaşar Üniversitesi</span><span lang="en">Yaşar University</span></h3>
+          <p><span lang="tr">Yönetim Bilişim Sistemleri, Lisans</span><span lang="en">Management Information Systems, Bachelor's</span></p>
+          <p><span lang="tr">İzmir · Devam ediyor</span><span lang="en">İzmir · In progress</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= İLETİŞİM: e-posta ve LinkedIn adresi burada ================= -->
+<footer class="band" id="iletisim">
+  <span class="sq" aria-hidden="true"></span>
+  <span class="circle" aria-hidden="true"></span>
+  <div class="in">
+    <div>
+      <div class="eyebrow"><span lang="tr">İletişim</span><span lang="en">Contact</span></div>
+      <h2><span lang="tr">Staj fırsatı için yazın, hızlıca dönüş yaparım.</span><span lang="en">Have an internship opening? Write to me and I will get back quickly.</span></h2>
+    </div>
+    <div class="rows">
+      <div class="row">
+        <span class="k"><span lang="tr">E-posta</span><span lang="en">Email</span></span>
+        <a class="v" id="mail" href="mailto:okanergurbuz35@gmail.com">okanergurbuz35@gmail.com</a>
+        <button type="button" id="copy-mail" class="copy"><span lang="tr">Kopyala</span><span lang="en">Copy</span></button>
+      </div>
+      <div class="row">
+        <span class="k">LinkedIn</span>
+        <a class="v" href="https://www.linkedin.com/in/okan-erg%C3%BCrb%C3%BCz-8b4850386/" target="_blank" rel="noopener">/in/okan-ergürbüz</a>
+        <a class="go" href="https://www.linkedin.com/in/okan-erg%C3%BCrb%C3%BCz-8b4850386/" target="_blank" rel="noopener"><span lang="tr">Profili aç ↗</span><span lang="en">Open ↗</span></a>
+      </div>
+    </div>
+    <div class="foot"><span>© 2026 Okan Ergürbüz</span><span>İzmir, Türkiye</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
