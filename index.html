@@ -91,29 +91,30 @@
           <div class="eyebrow"><span lang="tr">Kendi geliştirdiklerim</span><span lang="en">Built by me</span></div>
           <h2 id="h-proj"><span lang="tr">Projeler</span><span lang="en">Projects</span></h2>
         </div>
-        <span class="count">02</span>
+        <span class="count">03</span>
       </div>
       <div class="projects">
-        <article class="proj">
+        <article class="proj feature">
           <div class="shot" aria-hidden="true">
             <span class="deco" style="width:120px;height:120px;border-radius:50%;background:var(--blue);bottom:-60px;left:-60px;"></span>
             <div class="term">
-              <div><span class="p">$ </span><span class="cmd">python digest.py</span><span class="caret"></span></div>
-              <div class="c"># <span lang="tr">seçili siteler taranıyor</span><span lang="en">scanning selected sites</span></div>
-              <div class="trow"><span class="t"><span lang="tr">Ekonomi</span><span lang="en">Economy</span></span><span class="bars"><i class="bar w9"></i><i class="bar w6"></i></span></div>
-              <div class="trow"><span class="t"><span lang="tr">Teknoloji</span><span lang="en">Tech</span></span><span class="bars"><i class="bar w8"></i><i class="bar w5"></i></span></div>
-              <div class="trow"><span class="t"><span lang="tr">Spor</span><span lang="en">Sports</span></span><span class="bars"><i class="bar w7"></i><i class="bar w6"></i></span></div>
-              <div class="ok"><b>✓</b> <span lang="tr">günlük özet gönderildi</span><span lang="en">daily digest sent</span></div>
+              <div><span class="p">$ </span><span class="cmd">python main.py</span><span class="caret"></span></div>
+              <div class="c"># <span lang="tr">RSS: 8 kaynak taranıyor</span><span lang="en">RSS: scanning 8 feeds</span></div>
+              <div class="trow"><span class="t"><span lang="tr">Teknoloji</span><span lang="en">Tech</span></span><span class="bars"><i class="bar w9"></i><i class="bar w6"></i></span></div>
+              <div class="trow"><span class="t">EV / Oto</span><span class="bars"><i class="bar w8"></i><i class="bar w5"></i></span></div>
+              <div class="trow"><span class="t"><span lang="tr">Geliştirici</span><span lang="en">Dev</span></span><span class="bars"><i class="bar w7"></i><i class="bar w6"></i></span></div>
+              <div class="ok"><b>✓</b> <span lang="tr">bülten Discord'a gönderildi</span><span lang="en">digest sent to Discord</span></div>
             </div>
             <span class="ex"><span lang="tr">Temsili</span><span lang="en">Illustration</span></span>
           </div>
           <div class="body">
             <h3><span lang="tr">Günlük haber özeti botu</span><span lang="en">Daily news digest bot</span></h3>
             <p>
-              <span lang="tr">Seçilen haber sitelerini belirlenen başlıklarda tarıyor, bulduğu haberleri özetliyor ve kullanıcıya her gün kısa bir geri bildirim olarak gönderiyor.</span>
-              <span lang="en">Scans selected news sites for chosen topics, summarizes the articles it finds and sends the user a short digest every day.</span>
+              <span lang="tr">Takip edilen siteleri her gün RSS üzerinden tarıyor ve son 24 saatin yeni içeriklerini topluyor. Her haber için Gemini ya da Claude ile 2–3 cümlelik Türkçe özet çıkarıyor, sonra hepsini kategorilere ayrılmış bir bülten olarak Discord kanalına gönderiyor. Sunucu gerektirmiyor: her sabah 09:00'da GitHub Actions ile kendiliğinden çalışıyor.</span>
+              <span lang="en">Scans followed sites every day through RSS and collects what was published in the last 24 hours. It writes a 2–3 sentence Turkish summary of each article with Gemini or Claude, then posts everything to a Discord channel as a digest grouped by category. It needs no server: GitHub Actions runs it automatically every morning at 09:00.</span>
             </p>
-            <ul class="tags"><li>Python</li></ul>
+            <a class="p-link" href="https://github.com/okanergurbuz/News_Takip" target="_blank" rel="noopener"><span lang="tr">Kodu GitHub'da gör</span><span lang="en">View code on GitHub</span> ↗</a>
+            <ul class="tags"><li>Python</li><li>GitHub Actions</li><li>RSS</li><li>LLM API</li><li>Discord</li></ul>
           </div>
         </article>
 
@@ -140,6 +141,24 @@
               <span lang="en">A website I built for a driving school.</span>
             </p>
             <ul class="tags"><li>Web</li></ul>
+          </div>
+        </article>
+        <article class="proj">
+          <div class="shot">
+            <span class="deco" style="width:120px;height:120px;border-radius:50%;background:var(--coral);top:-60px;right:-60px;"></span>
+            <div class="browser real">
+              <div class="chrome"><i></i><i></i><i></i><span class="url"></span></div>
+              <img src="images/otel-sitesi.jpg" alt="Deluxe Hotel sitesinin ana sayfası" width="960" height="600" loading="lazy">
+            </div>
+          </div>
+          <div class="body">
+            <h3><span lang="tr">Otel tanıtım sitesi</span><span lang="en">Hotel website</span></h3>
+            <p>
+              <span lang="tr">"Deluxe Hotel" adında hayali bir otel için hazırladığım tanıtım sitesi. Hizmetler, odalar, galeri, ekip, blog ve iletişim bölümleri var. Telefonda da düzgün görünecek şekilde tasarlandı.</span>
+              <span lang="en">A promotional website for a fictional hotel called "Deluxe Hotel". It has sections for services, rooms, gallery, team, blog and contact, and is designed to work on phones as well.</span>
+            </p>
+            <a class="p-link" href="https://github.com/okanergurbuz/Hotel-Site" target="_blank" rel="noopener"><span lang="tr">Kodu GitHub'da gör</span><span lang="en">View code on GitHub</span> ↗</a>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li><span lang="tr">Mobil uyumlu</span><span lang="en">Responsive</span></li></ul>
           </div>
         </article>
       </div>

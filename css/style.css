@@ -155,6 +155,14 @@ a { color: inherit; }
 
 /* Projects */
 .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+/* Öne çıkan proje: tam genişlik, görsel solda yazı sağda */
+.proj.feature { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+.proj.feature .shot { border-bottom: 0; border-right: 1.5px solid var(--ink); min-height: 320px; }
+.proj.feature .body { padding: 32px 34px; justify-content: center; }
+.proj.feature h3 { font-size: 30px; }
+.p-link { align-self: flex-start; font-family: var(--font-mono); font-weight: 600; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); text-decoration: none; border-bottom: 2px solid var(--coral); padding-bottom: 3px; transition: color .15s; }
+.p-link:hover { color: var(--coral); }
+.browser.real img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
 .proj {
   background: var(--white); border: 1.5px solid var(--ink);
   display: flex; flex-direction: column; position: relative;
@@ -244,6 +252,12 @@ a { color: inherit; }
 .foot { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-family: var(--font-mono); font-weight: 500; font-size: 11.5px; letter-spacing: .06em; opacity: .75; }
 
 @media (max-width: 860px) {
+  .proj.feature { grid-template-columns: minmax(0, 1fr); }
+  .proj.feature .shot { border-right: 0; border-bottom: 1.5px solid var(--ink); min-height: 0; }
+  .proj.feature .body { padding: 24px 26px 26px; }
+  .proj.feature h3 { font-size: 25px; }
+}
+@media (max-width: 860px) {
   .hero-wrap .circle { width: 340px; height: 340px; top: -190px; right: -150px; }
   .hero { grid-template-columns: minmax(0, 1fr); gap: 40px; padding-block: 24px 56px; }
   .projects { grid-template-columns: minmax(0, 1fr); }
@@ -297,9 +311,9 @@ a { color: inherit; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
 /* Terminal: the bot runs */
-.term .cmd { display: inline-block; vertical-align: bottom; overflow: hidden; white-space: nowrap; width: 16ch; }
+.term .cmd { display: inline-block; vertical-align: bottom; overflow: hidden; white-space: nowrap; width: 14ch; }
 .term .caret { display: inline-block; width: 7px; height: 13px; background: var(--coral); margin-left: 3px; vertical-align: -2px; animation: blink 1s steps(2, end) infinite; }
-.term.play .cmd { animation: type .9s steps(16) both; }
+.term.play .cmd { animation: type .9s steps(14) both; }
 @keyframes type { from { width: 0; } }
 @keyframes show { from { visibility: hidden; } }
 .term.play .c { animation: show .01s 1.05s both; }
